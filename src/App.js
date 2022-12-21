@@ -1,21 +1,18 @@
 import './App.css';
-import Actores from './proyectopin/Practicaapi' 
-import {Routes,Route} from 'react-router-dom';
+import {Routes,Route, } from 'react-router-dom';
 import Contact from './proyectopin/Indexsu';
+import Iniciando from './proyectopin/Inicio';
+
 
 
 function App() {
   return (
     <div className="App">
       <Routes> 
-      <Route path='/' element={<Actores/>}></Route>
-          <Route path='/Formulariodecontacto' element={<Contact/>}></Route>
+      <Route path='/' element={<Iniciando/>}></Route>
+      <Route path='/Formulario' element={<Contact/>}></Route>
       </Routes>
-
-       
-             
-            
-        </div>
+    </div>
 
   );
 }
