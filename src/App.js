@@ -1,7 +1,7 @@
 import './App.css';
 import {Routes,Route, } from 'react-router-dom';
 import Contact from './proyectopin/Indexsu';
-import Iniciando from './proyectopin/Inicio';
+import Iniciando from './proyectopin/Hola';
 
 
 
@@ -18,10 +18,3 @@ function App() {
 }
 
 export default App;
-
-
-
-{/* <Contact/> */}
-          {/* <Barradenavegacion/>
-       {/* <Barritas/> */}
-        {/* <Actores/>   */} 

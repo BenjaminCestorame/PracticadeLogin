@@ -1,4 +1,3 @@
- 
 import {Link} from 'react-router-dom';
 import Img1 from './Perrit3.jpg'
 import Slider1 from './dog-logo.webp';
@@ -9,9 +8,9 @@ import './Inicio.css'
   function Iniciando (){ 
      return (
     <body className='A'>
-      <div><img src={Img1} className='img1'></img></div> 
-        <div className='B'>
-          <h1 className='t-12'>PetLover</h1>
+     <div><img src={Img1} className='img1'></img></div>  
+     <div className='B'>
+      <h1 className='t-12'>PetLover</h1>
           <nav> 
             <ul>
              <li><a href='#Haciendodisplay'>Home</a></li>
@@ -133,7 +132,3 @@ import './Inicio.css'
   };
 
   export default Iniciando; 
- 
-
-
-  
